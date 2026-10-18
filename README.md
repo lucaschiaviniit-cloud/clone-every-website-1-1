@@ -1,5 +1,7 @@
 # Orvibe Clone
 
+[![Clone checks](https://github.com/lucaschiaviniit-cloud/orvibe-clone/actions/workflows/ci.yml/badge.svg)](https://github.com/lucaschiaviniit-cloud/orvibe-clone/actions/workflows/ci.yml)
+
 A Codex skill for studying a deployed webpage, building a verified local replay, and reconstructing editable frontend source after you approve the reference.
 
 **Status: experimental, local-first tooling.** The engine has synthetic browser and regression tests. Real-site fidelity, total time savings and unattended reconstruction are not guaranteed. Clone is the product included here; Fusion, premium components and hosted services are separate directions.
@@ -72,7 +74,7 @@ For a browser demonstration using only the included synthetic fixture, follow [t
 - [Validation](VALIDATION.md): executed checks, supported claims and remaining gaps.
 - [Contributing](CONTRIBUTING.md), [security reporting](SECURITY.md), [changelog](CHANGELOG.md) and [roadmap](docs/ROADMAP.md).
 
-Only macOS arm64 execution has been verified locally for this release. The Linux CI workflow is included for future GitHub execution; other platforms and agents are not yet certified.
+Local validation covers macOS arm64. The GitHub Actions workflow checks Linux; [current results](https://github.com/lucaschiaviniit-cloud/orvibe-clone/actions/workflows/ci.yml) are public. Other platforms and agents are not yet validated.
 
 ## License and content rights
 

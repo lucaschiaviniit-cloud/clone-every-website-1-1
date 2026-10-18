@@ -1,6 +1,6 @@
 # Release validation
 
-This directory is a standalone release copy of Clone. The GitHub workflow is included but has not run on GitHub.
+This repository is a standalone distribution of Clone. Local package validation is recorded below; subsequent Linux checks are recorded in [GitHub Actions](https://github.com/lucaschiaviniit-cloud/orvibe-clone/actions/workflows/ci.yml).
 
 ## Executed against the release copy — 2026-10-18
 
