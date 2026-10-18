@@ -1,9 +1,9 @@
 ---
-name: clone-site
+name: clone-every-website-1-1
 description: Clone a supplied webpage through a verified local replay, then reconstruct editable independent source only after the user confirms the local version is sufficiently accurate. Use for faithful website replication and frontend source reconstruction from a deployed page.
 ---
 
-# Clone Site
+# Clone Every Website 1:1 — Compiled Build to Components
 
 Turn a user-supplied page URL into a faithful local frontend, then into editable source. Preserve the user's exact design, content and interactive behavior. Use deterministic acquisition/build/evaluation tools and agents for analysis, integration and source reconstruction. Tool execution must not require an additional LLM, scraping or image-generation API.
 

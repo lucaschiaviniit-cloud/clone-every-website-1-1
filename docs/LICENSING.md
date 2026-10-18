@@ -1,6 +1,6 @@
 # Licensing and commercial use
 
-Original Orvibe Clone code, instructions, documentation, fixtures and the procedural placeholder asset are offered under [Apache License 2.0](../LICENSE), except where an included third-party notice specifies another license.
+Original Clone Every Website 1:1 (an Orvibe project) code, instructions, documentation, fixtures and the procedural placeholder asset are offered under [Apache License 2.0](../LICENSE), except where an included third-party notice specifies another license.
 
 Apache-2.0 permits commercial use, modification and redistribution subject to its terms. It includes a limited contributor patent grant and does not grant general trademark rights. Retain the license and required notices and mark modifications when required. The authoritative terms are the license itself: [Apache's official text](https://www.apache.org/licenses/LICENSE-2.0).
 

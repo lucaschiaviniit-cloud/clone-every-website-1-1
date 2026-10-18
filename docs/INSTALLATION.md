@@ -1,6 +1,6 @@
 # Installation and troubleshooting
 
-Run all commands from the repository root unless a section says otherwise. Keep the installed skill folder named `clone-site`; this preserves the `$clone-site` invocation. The GitHub repository may have a different name.
+Run all commands from the repository root unless a section says otherwise. Keep the installed skill folder named `clone-every-website-1-1`; this preserves the `$clone-every-website-1-1` invocation. The GitHub repository may have a different name.
 
 ```sh
 node --version

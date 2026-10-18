@@ -1,8 +1,8 @@
-# Orvibe Clone
+# Clone Every Website 1:1 — Compiled Build to Components
 
-[![Clone checks](https://github.com/lucaschiaviniit-cloud/orvibe-clone/actions/workflows/ci.yml/badge.svg)](https://github.com/lucaschiaviniit-cloud/orvibe-clone/actions/workflows/ci.yml)
+[![Clone checks](https://github.com/lucaschiaviniit-cloud/clone-every-website-1-1/actions/workflows/ci.yml/badge.svg)](https://github.com/lucaschiaviniit-cloud/clone-every-website-1-1/actions/workflows/ci.yml)
 
-A Codex skill for studying a deployed webpage, building a verified local replay, and reconstructing editable frontend source after you approve the reference.
+An experimental Codex skill by Orvibe for studying a deployed webpage, building a verified local replay, and reconstructing editable frontend source after you approve the reference.
 
 **Status: experimental, local-first tooling.** The engine has synthetic browser and regression tests. Real-site fidelity, total time savings and unattended reconstruction are not guaranteed. Clone is the product included here; Fusion, premium components and hosted services are separate directions.
 
@@ -26,31 +26,31 @@ The deterministic tooling makes no AI API calls and needs no API key. Your codin
 
 ## Install
 
-Clone the repository into a folder named `clone-site`:
+Clone the repository into a folder named `clone-every-website-1-1`:
 
 ```sh
-git clone https://github.com/lucaschiaviniit-cloud/orvibe-clone.git clone-site
-cd clone-site
+git clone https://github.com/lucaschiaviniit-cloud/clone-every-website-1-1.git clone-every-website-1-1
+cd clone-every-website-1-1
 ```
 
-Alternatively, download its ZIP and extract it to a folder named `clone-site`. From that folder:
+Alternatively, download its ZIP and extract it to a folder named `clone-every-website-1-1`. From that folder:
 
 ```sh
 npm ci --prefix tools/lab
 npm --prefix tools/lab run setup:browser
 ```
 
-Copy the folder to `~/.codex/skills/clone-site`, or on macOS/Linux create a symlink from the repository root:
+Copy the folder to `~/.codex/skills/clone-every-website-1-1`, or on macOS/Linux create a symlink from the repository root:
 
 ```sh
 mkdir -p ~/.codex/skills
-ln -s "$PWD" ~/.codex/skills/clone-site
+ln -s "$PWD" ~/.codex/skills/clone-every-website-1-1
 ```
 
 If that destination already exists, choose explicitly whether to retain or replace your existing installation. Start a new Codex session in the project where you want the output:
 
 ```text
-Use $clone-site to reconstruct https://YOUR-AUTHORIZED-TARGET.example/page
+Use $clone-every-website-1-1 to reconstruct https://YOUR-AUTHORIZED-TARGET.example/page
 ```
 
 The agent asks about media before opening the target. Use a fresh output directory for every capture. For setup problems see [installation and troubleshooting](docs/INSTALLATION.md).
@@ -74,7 +74,7 @@ For a browser demonstration using only the included synthetic fixture, follow [t
 - [Validation](VALIDATION.md): executed checks, supported claims and remaining gaps.
 - [Contributing](CONTRIBUTING.md), [security reporting](SECURITY.md), [changelog](CHANGELOG.md) and [roadmap](docs/ROADMAP.md).
 
-Local validation covers macOS arm64. The GitHub Actions workflow checks Linux; [current results](https://github.com/lucaschiaviniit-cloud/orvibe-clone/actions/workflows/ci.yml) are public. Other platforms and agents are not yet validated.
+Local validation covers macOS arm64. The GitHub Actions workflow checks Linux; [current results](https://github.com/lucaschiaviniit-cloud/clone-every-website-1-1/actions/workflows/ci.yml) are public. Other platforms and agents are not yet validated.
 
 ## License and content rights
 
