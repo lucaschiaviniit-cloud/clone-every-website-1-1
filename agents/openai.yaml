@@ -1,0 +1,4 @@
+interface:
+  display_name: "Clone Site"
+  short_description: "Replica locale verificata, poi sorgenti dopo conferma"
+  default_prompt: "Usa $clone-site per clonare la pagina indicata: chiedimi prima se voglio gli asset originali oppure segnaposto per foto e video, poi rendila funzionante in locale e attendi la mia conferma di accuratezza prima di ricostruire i sorgenti."

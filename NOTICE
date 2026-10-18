@@ -1,0 +1,48 @@
+Orvibe Clone
+Copyright 2026 the Orvibe Clone contributors.
+
+Original project code and documentation are licensed under Apache-2.0,
+except for third-party material identified below and in tools/lab/THIRD_PARTY.md.
+Each third-party component retains its own copyright and license.
+
+Selected utilities from ai-site-cloner:
+Copyright (c) 2026 Mahanaicoach. MIT.
+License: tools/lab/licenses/ai-site-cloner-LICENSE
+
+Header policy adapted from webEmbedding:
+Copyright (c) 2026 Jongho. MIT.
+License: tools/lab/licenses/webEmbedding-LICENSE
+
+Selected utilities from rever-browser:
+Copyright 2026 TaeVirus. Apache-2.0.
+License: tools/lab/licenses/rever-browser-LICENSE
+Original notice: tools/lab/licenses/rever-browser-NOTICE
+The source excerpt is maintained as TypeScript; its original attribution is retained.
+
+Fixture font: Inter, Copyright 2016 The Inter Project Authors.
+SIL Open Font License 1.1: tools/lab/licenses/inter-OFL.txt
+
+The bundled placeholder video is a procedural project asset generated from
+solid colors and geometric shapes. Its generator and provenance are included.
+
+The following notice is reproduced from rever-browser. It describes that
+upstream project; its separately invoked tools are not included in Orvibe Clone:
+
+rever-browser
+Copyright 2026 TaeVirus
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+This product bundles third-party dependencies listed in package.json, each
+under its own permissive license (MIT, Apache-2.0, ISC or BSD).
+
+The following tools are invoked as separate processes and are not bundled or
+distributed with this project:
+
+  - @agentclientprotocol/claude-agent-acp (Apache-2.0)
+  - @agentclientprotocol/codex-acp (Apache-2.0)
+  - webcrack (MIT)

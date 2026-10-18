@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "kind": "procedural-project-asset",
+  "license": "Apache-2.0",
+  "generator": "scripts/generate-placeholder-video.mjs",
+  "source": "FFmpeg lavfi color source, geometric rectangle and fades; no external media, text, fonts or target footage.",
+  "sha256": "56c40d0fc0314ed59bb87845b020465e37173705d88b0f82e866df14f6c77e46",
+  "bytes": 22316,
+  "durationSeconds": 8,
+  "width": 720,
+  "height": 1280,
+  "frameRate": 24,
+  "codec": "h264",
+  "audio": false,
+  "encoderVersion": "ffmpeg version 9.0.1 Copyright (c) 2000-2026 the FFmpeg developers",
+  "reproducibility": "Encoder versions can change encoded bytes; regenerate provenance with the asset."
+}

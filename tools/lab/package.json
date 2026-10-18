@@ -1,0 +1,35 @@
+{
+  "name": "clone-site-deterministic-lab",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test --test-concurrency=1 tests/unit/*.test.ts tests/integration/*.test.ts",
+    "capture": "tsx src/cli.ts capture",
+    "capture:fixture": "tsx src/cli.ts fixture",
+    "build:variants": "tsx src/cli.ts build",
+    "eval": "tsx src/cli.ts eval",
+    "bench": "tsx src/cli.ts bench",
+    "report": "tsx src/cli.ts report",
+    "serve": "tsx src/cli.ts serve",
+    "setup:browser": "playwright install chromium"
+  },
+  "dependencies": {
+    "parse5": "8.0.0",
+    "pixelmatch": "8.0.0",
+    "playwright": "1.64.0",
+    "pngjs": "7.0.0",
+    "zod": "4.6.6"
+  },
+  "devDependencies": {
+    "@types/node": "24.10.1",
+    "@types/pngjs": "6.0.5",
+    "tsx": "4.23.15",
+    "typescript": "5.9.3"
+  },
+  "license": "Apache-2.0"
+}

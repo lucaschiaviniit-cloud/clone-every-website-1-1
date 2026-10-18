@@ -1,0 +1,82 @@
+{
+  "viewports": [
+    {
+      "id": "desktop",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "id": "tablet",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "id": "mobile",
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "settleMs": 4000,
+  "timeoutMs": 60000,
+  "maxElements": 3000,
+  "maxBodyBytes": 134217728,
+  "locale": "en-US",
+  "timezoneId": "UTC",
+  "reducedMotion": "no-preference",
+  "colorScheme": "light",
+  "motionProtocol": "natural-sampled",
+  "allowedHosts": [],
+  "assetDiscovery": true,
+  "scenarios": [
+    {
+      "id": "load-0",
+      "action": "time",
+      "atMs": 0
+    },
+    {
+      "id": "load-500",
+      "action": "time",
+      "atMs": 500
+    },
+    {
+      "id": "load-1500",
+      "action": "time",
+      "atMs": 1500
+    },
+    {
+      "id": "load-3000",
+      "action": "time",
+      "atMs": 3000
+    },
+    {
+      "id": "scroll-25",
+      "action": "scroll",
+      "progress": 0.25,
+      "waitMs": 700
+    },
+    {
+      "id": "scroll-50",
+      "action": "scroll",
+      "progress": 0.5,
+      "waitMs": 700
+    },
+    {
+      "id": "scroll-75",
+      "action": "scroll",
+      "progress": 0.75,
+      "waitMs": 700
+    },
+    {
+      "id": "scroll-100",
+      "action": "scroll",
+      "progress": 1.0,
+      "waitMs": 700
+    },
+    {
+      "id": "scroll-return",
+      "action": "scroll",
+      "progress": 0,
+      "waitMs": 700
+    }
+  ]
+}

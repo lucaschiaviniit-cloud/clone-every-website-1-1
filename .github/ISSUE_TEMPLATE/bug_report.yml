@@ -1,0 +1,22 @@
+name: Bug report
+description: Report a reproducible Clone problem
+body:
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, Node version, release or commit, and agent/client when relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction and expected behavior
+      description: Prefer a synthetic or authorized public example. Include the media mode and exact command.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Observed behavior and sanitized evidence
+      description: Remove tokens, personal information and target-owned capture files before sharing.

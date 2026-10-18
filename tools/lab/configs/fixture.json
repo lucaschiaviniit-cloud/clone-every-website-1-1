@@ -1,0 +1,19 @@
+{
+  "viewports": [{"id":"desktop","width":1440,"height":900},{"id":"tablet","width":768,"height":1024},{"id":"mobile","width":390,"height":844}],
+  "settleMs":100,"timeoutMs":10000,"readySelector":"html[data-ready=true]","maxElements":2000,"maxBodyBytes":16777216,
+  "locale":"en-US","timezoneId":"UTC","reducedMotion":"no-preference","colorScheme":"light","motionProtocol":"waapi-seek","allowedHosts":[],
+  "scenarios":[
+    {"id":"load-0","action":"time","atMs":0,"expect":{"selector":"#status","text":"GET replay OK"}},
+    {"id":"load-500","action":"time","atMs":500},
+    {"id":"load-1500","action":"time","atMs":1500},
+    {"id":"load-3000","action":"time","atMs":3000},
+    {"id":"scroll-25","action":"scroll","progress":0.25},
+    {"id":"scroll-50","action":"scroll","progress":0.5},
+    {"id":"scroll-75","action":"scroll","progress":0.75},
+    {"id":"scroll-100","action":"scroll","progress":1},
+    {"id":"hover-cta","action":"hover","selector":"#action","expect":{"selector":"#action:hover","visible":true}},
+    {"id":"menu-open","action":"click","selector":"#menu-toggle","expect":{"selector":"#menu-toggle","attribute":"aria-expanded","value":"true"}},
+    {"id":"menu-closed","action":"click","selector":"#menu-toggle","precondition":{"selector":"#menu-toggle","attribute":"aria-expanded","value":"true"},"expect":{"selector":"#menu-toggle","attribute":"aria-expanded","value":"false"}},
+    {"id":"focus-cta","action":"focus","selector":"#action","expect":{"selector":"#action:focus","visible":true}}
+  ]
+}

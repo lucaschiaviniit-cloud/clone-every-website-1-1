@@ -1,0 +1,7 @@
+[
+  {"id":"v0","builder":"static-snapshot","js":false,"css":true,"assets":true,"har":false,"state":false,"motion":false},
+  {"id":"v1","builder":"source-mirror","js":true,"css":true,"assets":true,"har":false,"state":false,"motion":false},
+  {"id":"v2","builder":"replay-hybrid","js":true,"css":true,"assets":true,"har":true,"state":false,"motion":false},
+  {"id":"v3","builder":"replay-hybrid","js":true,"css":true,"assets":true,"har":true,"state":true,"motion":false},
+  {"id":"v4","builder":"replay-hybrid","js":true,"css":true,"assets":true,"har":true,"state":true,"motion":true}
+]

@@ -1,0 +1,37 @@
+{
+  "repositories": [
+    {
+      "repository": "ai-site-cloner",
+      "commit": "ad6189bf33945a4431491827c4fde4382f0b4407",
+      "license": true
+    },
+    {
+      "repository": "webEmbedding",
+      "commit": "fa1034a0b01437fdd920bec4b8d3bc9e9e45afe0",
+      "license": true
+    },
+    {
+      "repository": "rever-browser",
+      "commit": "770eb95c3bc0eb47410626980fc4ba26e0b135c2",
+      "license": true
+    }
+  ],
+  "sources": [
+    {
+      "path": "ai-site-cloner/scripts/extract/collectors.mjs",
+      "sha256": "aaedc7dab05a2f9ba89fdcaffe4e35236f947d3fccb93725c0a146a87d12ad1f"
+    },
+    {
+      "path": "webEmbedding/bundle/source-first-clone/mcp/source_first_clone/har_replay.py",
+      "sha256": "29f962e376765b9d574511540fb83afcd69f0165cfcddca6820c2fbe52c6fd44"
+    },
+    {
+      "path": "rever-browser/src/main/mcp/har-build.ts",
+      "sha256": "0b2a8f9e9012338f20dfdb913d5c09f6b37047eab9696f7c9562da8b375b8a0d"
+    },
+    {
+      "path": "rever-browser/src/main/mcp/script-analysis.ts",
+      "sha256": "531cdfbebb21f8e2e01dd9f62d1def1379c2ce71085fbcd49f02928a00506fd8"
+    }
+  ]
+}

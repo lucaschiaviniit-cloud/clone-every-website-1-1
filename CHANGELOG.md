@@ -1,0 +1,11 @@
+# Changelog
+
+## 0.1.0 — prepared release, 2026-10-18
+
+- Packaged the existing Clone skill, deterministic engine, tests and synthetic fixtures for independent installation.
+- Added Apache-2.0 licensing for original material and retained upstream licenses and attribution.
+- Added installation, local demo, workflow, licensing and contribution documentation.
+- Replaced the workspace-reused placeholder footage with a procedural eight-second video with a generator and provenance.
+- Included explicit media choice, local runtime preflight, replay startup checks, conservative same-context media reuse and targeted source validation from the current Clone implementation.
+
+This is a locally prepared release. Publication and GitHub CI execution have not occurred merely because this entry exists.
